@@ -1,0 +1,129 @@
+html, body{
+  padding: 0;
+  margin: 0;
+}
+html{
+  height: 100%;
+}
+body{
+  min-height: 100%;
+}
+
+body, body *{
+  font-family: -apple-system, BlinkMacSystemFont, 'Varela Round', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+hr.solid {
+  border-top: 1px solid #bbb;
+  width: 100%;
+}
+
+.container {
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.topbar {
+  margin: 20px;
+  max-width: 1000px;
+  width: 100%;
+  box-shadow: 0 10px 15px -20px #333;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.section {
+  max-width: 1000px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.search-bar {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 700px;
+}
+
+.search-bar form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.search-bar input {
+  font-size: 100%;
+  width: 100%;
+  border-radius: 50px 0 0 50px;
+  border: 1px solid #ddd;
+  padding: 12px 20px 13px 20px;
+}
+
+.search-bar button {
+  border-radius: 0 50px 50px 0;
+  border: 1px solid transparent;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #3cb879;
+  color: #fff;
+  padding: 12px 20px 13px 20px;
+}
+
+.location-table {
+  display: flex;
+  justify-content: center;
+  max-width: 670px;
+  width: 100%;
+  text-align: left;
+}
+
+th, td {
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  width: 100%;
+}
+th {
+  width: 40%;
+}
+
+input:focus {
+  outline: none;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  margin: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+}

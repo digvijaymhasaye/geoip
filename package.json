@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "lerna": "^6.6.2"
+  },
+  "name": "geoip",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "lerna run start",
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
